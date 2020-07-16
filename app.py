@@ -15,7 +15,9 @@ import func_module_as
 # print(date_xmas)
 
 
-ndate = func_module_as.date_now()
-print(ndate)
+# ndate = func_module_as.date_now()
+# print(ndate)
 
-func_module_as.remain_date()
+# func_module_as.remain_date()
+re_date = func_module_as.remain_date_input(10, 20)
+print(re_date)
